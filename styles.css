@@ -1,0 +1,51 @@
+img{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+
+}
+
+table td{
+    border: 2px solid black;
+
+}
+#container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    border: none;
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    justify-content: center;
+    gap: 5px;
+}
+
+button{
+    width: 2cm;
+
+}
